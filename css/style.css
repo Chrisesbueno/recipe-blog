@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 350px;
+    height: 100vh;
+    margin: 10px;
+}
+
+/* CARD UP -START- */
+.card--up {
+    margin-bottom: 20px;
+}
+.card--up h1 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333333;
+}
+.card--up img {
+    width: 350px;
+}
+.card--up-sub {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.card--up-sub img{
+    margin-top: 3px;
+    width: 14px;
+}
+.card--up-sub p {
+    margin-left: 10px;   
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+}
+/* CARD UP -END- */
+/* CARD DOWN RIGHT(DESKTOP ONLY IN THE RIGHT) -START- */
+.rightServings, .clockTime, .rightClocks {
+    display: flex;
+    align-items: center;
+}
+.rightClocks{
+    margin: 20px 0;
+    justify-content: space-between;
+}
+.rightServings div h2, .clockTime div h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 8px;
+    color: #BDBDBD;
+}
+.rightServings div p, .clockTime div p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 10px;
+}
+.rightServings div p, .rightServings i {
+    color: #F2994A;
+}
+.rightServings i, .clockTime i {
+    width: 17px;
+    margin-right: 5px;
+}
+.clockTime i {
+    color: #4F4F4F;
+}
+.clockTime div p{
+    color: #333333;
+}
+/* CARD DOWN RIGHT(DESKTOP ONLY IN THE RIGHT) -END- */
+/* CARD DOWN LEFT(DESKTOP ONLY IN THE LEFT) -START- */
+.leftTitle {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.leftSubtitle {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.leftCheckbox {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+.leftCheckbox p {
+    width: 100%;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #333333;
+    margin-left: 10px;
+}
+.leftCheckbox input {
+    margin-top: 6px;
+    width: 21px;
+    height: 21px;
+    /* margin: 5px; */
+}
+.leftCheckbox i {
+    font-weight: 500;
+}
+.leftInstructions {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.textPar {
+    width: 100%;
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;
+}
+.numberBg p {
+    color: #ffffff;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 24px;
+}
+.numberBg {
+    display: flex;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 10%;
+    background-color: #F2994A;
+}
+/* efecto */
+.leftCheckbox:checked {
+    text-decoration: line-through;
+    transition: 1s;
+}
+/* CARD DOWN LEFT(DESKTOP ONLY IN THE LEFT) -END- */
+/* FOOTER -START- */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer__text {
+    font-family: 'Montserrat';
+    font-size: 14px; 
+    color: #949494;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 15px;
+    color: #222121;
+}
+/* FOOTER -END- */
+@media screen and (min-width:700px) {
+    .container {
+        width: 75%;
+        height: 100vh;
+        padding: 10px;
+    }
+    .card--up img {
+    width: 969px;
+    }
+    .card--up-sub img{
+    width: 14px;
+    }
+    .card--down {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .rightCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 135px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
+        margin: 30px 100px;
+
+    }
+    .rightServings {
+        margin-top: 40px;
+    }
+    .rightClocks {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .clockTime {
+        margin-bottom: 20px;
+    }
+    .card--down-left{
+        width: 100%;
+    }
+    .card--up-sub p {
+        font-size: 14px;
+        width: 70%;
+    }
+    .card--up h1 {
+        font-size: 36px;
+    }
+    .leftTitle {
+        font-size: 30px;
+    }
+}
