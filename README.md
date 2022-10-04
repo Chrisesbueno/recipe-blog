@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://chrisesbueno.github.io/recipe-blog/">
       Demo
     </a>
     <span> | </span>
@@ -35,11 +35,11 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/Chrisesbueno/recipe-blog/main/DesktopVersion.png)
+![screenshot](https://raw.githubusercontent.com/Chrisesbueno/recipe-blog/main/MobileVersion.png)
 
 - Where can I see your demo?
-  <h3><a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht" target="_blank"> Demo </a></h3>
+  <h3><a href="https://chrisesbueno.github.io/recipe-blog/" target="_blank"> Demo </a></h3>
 - What was your experience?
   <h3> I took longer than I should to do this challenge because I dared to make a small script to mark the ingredients </h3>
 - What have you learned/improved?
@@ -61,7 +61,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/Chrisesbueno/recipe-blog
 
 # Install dependencies
 $ npm install
